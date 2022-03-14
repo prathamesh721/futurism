@@ -253,20 +253,20 @@ nav ul li a{
     background-image: linear-gradient(to right, #f9e3e3, #cecbe4);
   }
   #table-heading th {
-    width: 10%;
-    padding: 0.1rem;
-    font-size: 00.75rem;
+    width: 5%;
+    padding: 0 0.1rem;
+    font-size: 00.55rem;
   }
   tbody {
     background-color: white;
   }
   tbody tr {
     border-radius: 0 0.5rem 0 0.5rem;
-    padding: 0.45rem;
+    padding: 0.45rem 0;
   }
   tbody td {
-    padding: 0.125rem 0.5rem;
-    font-size: 0.75rem;
+    padding: 0.125rem 0rem;
+    font-size: 0.5rem;
   }
   /*================================Frequently Asked Questions=================================*/
   .fouth-background {
