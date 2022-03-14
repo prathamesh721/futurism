@@ -1,0 +1,727 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 576px) {
+
+  .violetButton{
+    background-image: linear-gradient(to right, #7851A1,#5F56A4);
+    color: white;
+    border-radius: 1.5rem;
+    padding: 0.5rem 00.95rem;
+    border: none;
+    font-size: 0.8rem;
+    transition: 0.1s ease-out;
+    cursor: pointer;
+}
+.violetButton:hover{
+    transform: scale(0.95);
+    background-image: linear-gradient(to right, #5F56A4, #7851A1);
+    color: #f5f5f5;
+    
+}
+  nav{
+    position: relative;
+}
+header .img1 img{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    z-index: -2;
+    opacity: 0.7;}
+
+    header .img2 img{
+      position: absolute;
+      top: 12rem;
+      right: 0.1rem;
+      z-index: -1;
+      
+      
+  
+  }
+
+ header img{
+   position: absolute;
+   top: 20%;
+ }
+ header ul{
+  list-style: none;
+  display: flex;
+}
+header ul li{
+  margin: 0.6rem 1.5rem;
+}
+.navbar-nav{
+  display: flex;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  justify-content: space-between;
+}
+  .afterLaptop {
+    padding: 1rem;
+  }
+  .violetButton {
+    background-image: linear-gradient(to right, #7851a1, #5f56a4);
+    color: white;
+    border-radius: 1.5rem;
+    padding: 0.25rem 00.4rem;
+    border: none;
+    font-size: 0.6rem;
+    transition: 0.1s ease-out;
+    cursor: pointer;
+  }
+  .violetButton:hover {
+    transform: scale(0.95);
+    background-image: linear-gradient(to right, #5f56a4, #7851a1);
+    color: #f5f5f5;
+  }
+  .fist-section {
+    height: 70vh;
+  }
+  /*====================================Brand carousal======================*/
+  .brand-carousal {
+    text-align: center;
+    z-index: 1;
+    border-radius: 0.5rem;
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 15%;
+    box-shadow: 3px 3px 5px 5px gray;
+    background-color: white;
+    position: absolute;
+    left: 10%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+  }
+  .brand-carousal-items {
+    width: 12.5%;
+  }
+  .brand-carousal-items img {
+    width: 90%;
+  }
+  
+
+  /*=============================================Form=====================================================*/
+  .second-background {
+    position: relative;
+    margin-top: 0rem;
+    padding: 1rem;
+    padding-top: 4.5rem;
+  }
+  .second-background h3 {
+    font-size: 1.375rem;
+    margin-top: 0rem;
+  }
+  .second-background p {
+    font-size: 0.85rem;
+    font-weight: bold;
+  }
+  form input {
+    display: block;
+    margin: 1rem 0;
+    width: 100%;
+    border-radius: 0.25rem;
+    outline: none;
+    border: 0.06rem solid gray;
+    font-size: 0.85rem;
+    padding: 00.5rem;
+  }
+  .form-btn {
+    width: 100%;
+    text-align: center;
+  }
+  .form-outer {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    padding: 2rem;
+    border-radius: 0.75rem;
+  }
+
+  /*=============================================Course Eligiblity=====================================================*/
+  section #courseEligibility {
+    background-image: linear-gradient(to right, #cecbe4, #f9e3e3);
+    width: 100%;
+    height: 25rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+  .heading-eligible {
+    margin: 0;
+  }
+  .inner-wrapper {
+    width: 25%;
+    text-align: center;
+    font-size: 0.5rem;
+  }
+  .inner-wrapper h6 {
+    font-size: 0.75rem;
+    padding: 00.75rem;
+  }
+  .inner-wrapper i {
+    font-size: 1rem;
+  }
+  .image-wrapper {
+    position: relative;
+  }
+
+  .image-wrapper img {
+    position: absolute;
+    bottom: -163%;
+    right: -50%;
+    transform: translateX(-5%);
+    transition: 0.1s ease;
+    width: 19rem;
+  }
+  /*====================================Statistics======================*/
+
+  .inner-stat strong {
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+  .inner-stat h6 {
+    margin: auto;
+    font-weight: 800;
+    text-align: center;
+    width: 55%;
+    color: gray;
+    font-size: 0.5rem;
+  }
+
+  /*=========================================Syllabus of Iot================================*/
+  .syllabus {
+    position: relative;
+  }
+  .syllabus ul li {
+    /* list-style-image: url(../Icons/circle-check-solid.png); */
+    margin: 0;
+    padding: 0 2rem;
+
+    list-style: none;
+    background-image: url("../Icons/circle-check-solid.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 0.75rem;
+    font-size: 0.82rem;
+  }
+  .no-card {
+    position: absolute;
+    top: 5%;
+    left: 0%;
+  }
+  .card {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    height: 10rem;
+    margin: 0.5rem;
+    background-color: white;
+    box-shadow: 5px 5px 5px gray;
+    font-weight: bold;
+  }
+  .card:hover {
+    transform: scale(0.98);
+    transition: 0.2s ease-in;
+  }
+  /* =================================================Upcoming Batch Schedule===================================================== */
+  .third-background {
+    padding: 2rem 0;
+  }
+
+  .third-background .batch-Heading {
+    text-align: center;
+  }
+  #table-heading {
+    background-image: linear-gradient(to right, #f9e3e3, #cecbe4);
+  }
+  #table-heading th {
+    width: 10%;
+    padding: 0.1rem;
+    font-size: 00.75rem;
+  }
+  tbody {
+    background-color: white;
+  }
+  tbody tr {
+    border-radius: 0 0.5rem 0 0.5rem;
+    padding: 0.45rem;
+  }
+  tbody td {
+    padding: 0.125rem 0.5rem;
+    font-size: 0.75rem;
+  }
+  /*================================Frequently Asked Questions=================================*/
+  .fouth-background {
+    padding: 2rem 0;
+  }
+  .questions-heading {
+    text-align: center;
+    margin: auto;
+  }
+
+  .accordion {
+    margin: auto;
+    width: 100%;
+  }
+  .contentBx {
+    margin: 0.1rem 1.2rem;
+  }
+  .accordion-label {
+    position: relative;
+    padding: 00.6rem;
+    border-radius: 0.6rem;
+    background-color: white;
+  }
+  .accordion-label:hover {
+    background-image: linear-gradient(to right, #fbeeef, #7761aa);
+  }
+  .accordion-label::after {
+    content: "\002B";
+    position: absolute;
+    bottom: 50%;
+    right: 2%;
+    transform: translateY(50%);
+    font-size: 1.5rem;
+    
+  }
+  .contentBx.active .accordion-label::after {
+    content: "\002D";
+    position: absolute;
+    bottom: 50%;
+    right: 2%;
+    transform: translateY(50%);
+    font-size: 1.5rem;
+    
+  }
+  .accordion-content {
+    height: 0;
+    overflow: hidden;
+    transition: 0.2s ease;
+    overflow-y: auto;
+  }
+  .contentBx.active .accordion-content {
+    padding: 0.3rem;
+    height: 100%;
+  }
+
+  /*======================================================Our Key Features===========================================*/
+  .features-heading {
+    text-align: center;
+  }
+  .features .card {
+    text-align: center;
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
+  .features .card h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+
+  /*==================================About Futurism===============================================*/
+  #about-futurism {
+    padding: 1rem 0;
+  }
+  #about-futurism .card {
+    box-shadow: none;
+    border: none;
+    transform: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin: 0rem;
+  }
+
+  /*======================================== Footer ============================================*/
+  footer ul li {
+    list-style: none;
+    padding: 00.5rem 0;
+  }
+  footer a {
+    text-decoration: none;
+    color: white;
+  }
+  .social-icons img:hover {
+    transform: scale(0.98);
+  }
+  footer {
+    font-size: 0.85rem;
+    font-weight: bold;
+    padding: 2rem;
+  }
+}
+/*====================================================Landscape Mobile======================================*/
+/*====================================================Landscape Mobile======================================*/
+/*====================================================Landscape Mobile======================================*/
+/*====================================================Landscape Mobile======================================*/
+/*====================================================Landscape Mobile======================================*/
+
+/* For Mobile Portrait View */
+@media screen and (min-width: 576px) {
+  nav{
+    position: relative;
+}
+header .img1 img{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    z-index: -2;
+    opacity: 0.7;}
+
+    header .img2 img{
+      position: absolute;
+      top: 12rem;
+      right: 0.1rem;
+      z-index: -1;
+      
+      
+  
+  }
+
+ header img{
+   position: absolute;
+   top: 20%;
+ }
+ header ul{
+  list-style: none;
+  display: flex;
+}
+header ul li{
+  margin: 0.6rem 1.5rem;
+}
+.navbar-nav{
+  display: flex;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  justify-content: space-between;
+}
+  .afterLaptop {
+    padding: 1rem;
+  }
+  .violetButton {
+    background-image: linear-gradient(to right, #7851a1, #5f56a4);
+    color: white;
+    border-radius: 1.5rem;
+    padding: 0.25rem 00.4rem;
+    border: none;
+    font-size: 0.6rem;
+    transition: 0.1s ease-out;
+    cursor: pointer;
+  }
+  .violetButton:hover {
+    transform: scale(0.95);
+    background-image: linear-gradient(to right, #5f56a4, #7851a1);
+    color: #f5f5f5;
+  }
+  .fist-section {
+    height: 70vh;
+  }
+  /*====================================Brand carousal======================*/
+  .brand-carousal {
+    text-align: center;
+    z-index: 1;
+    border-radius: 0.5rem;
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 15%;
+    box-shadow: 3px 3px 5px 5px gray;
+    background-color: white;
+    position: absolute;
+    left: 10%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+  }
+  .brand-carousal-items {
+    width: 12.5%;
+  }
+  .brand-carousal-items img {
+    width: 90%;
+  }
+  
+
+  /*=============================================Form=====================================================*/
+  .second-background {
+    position: relative;
+    margin-top: 0rem;
+    padding: 1rem;
+    padding-top: 4.5rem;
+  }
+  .second-background h3 {
+    font-size: 1.375rem;
+    margin-top: 0rem;
+  }
+  .second-background p {
+    font-size: 0.85rem;
+    font-weight: bold;
+  }
+  form input {
+    display: block;
+    margin: 1rem 0;
+    width: 100%;
+    border-radius: 0.25rem;
+    outline: none;
+    border: 0.06rem solid gray;
+    font-size: 0.85rem;
+    padding: 00.5rem;
+  }
+  .form-btn {
+    width: 100%;
+    text-align: center;
+  }
+  .form-outer {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    padding: 2rem;
+    border-radius: 0.75rem;
+  }
+
+  /*=============================================Course Eligiblity=====================================================*/
+  section #courseEligibility {
+    background-image: linear-gradient(to right, #cecbe4, #f9e3e3);
+    width: 100%;
+    height: 25rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+  .heading-eligible {
+    margin: 0;
+  }
+  .inner-wrapper {
+    width: 25%;
+    text-align: center;
+    font-size: 0.5rem;
+  }
+  .inner-wrapper h6 {
+    font-size: 0.75rem;
+    padding: 00.75rem;
+  }
+  .inner-wrapper i {
+    font-size: 1rem;
+  }
+  .image-wrapper {
+    position: relative;
+  }
+
+  .image-wrapper img {
+    position: absolute;
+    bottom: -163%;
+    right: -50%;
+    transform: translateX(-10%);
+    transition: 0.1s ease;
+    width: 19rem;
+  }
+  /*====================================Statistics======================*/
+
+  .inner-stat strong {
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+  .inner-stat h6 {
+    margin: auto;
+    font-weight: 800;
+    text-align: center;
+    width: 55%;
+    color: gray;
+    font-size: 0.5rem;
+  }
+
+  /*=========================================Syllabus of Iot================================*/
+  .syllabus {
+    position: relative;
+  }
+  .syllabus ul li {
+    /* list-style-image: url(../Icons/circle-check-solid.png); */
+    margin: 0;
+    padding: 0 2rem;
+
+    list-style: none;
+    background-image: url("../Icons/circle-check-solid.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 0.75rem;
+    font-size: 0.82rem;
+  }
+  .no-card {
+    position: absolute;
+    top: 5%;
+    left: 0%;
+  }
+  .card {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    height: 10rem;
+    margin: 0.5rem;
+    background-color: white;
+    box-shadow: 5px 5px 5px gray;
+    font-weight: bold;
+  }
+  .card:hover {
+    transform: scale(0.98);
+    transition: 0.2s ease-in;
+  }
+  /* =================================================Upcoming Batch Schedule===================================================== */
+  .third-background {
+    padding: 2rem 0;
+  }
+
+  .third-background .batch-Heading {
+    text-align: center;
+  }
+  #table-heading {
+    background-image: linear-gradient(to right, #f9e3e3, #cecbe4);
+  }
+  #table-heading th {
+    width: 10%;
+    padding: 0.1rem;
+    font-size: 00.75rem;
+  }
+  tbody {
+    background-color: white;
+  }
+  tbody tr {
+    border-radius: 0 0.5rem 0 0.5rem;
+    padding: 0.45rem;
+  }
+  tbody td {
+    padding: 0.125rem 0.5rem;
+    font-size: 0.75rem;
+  }
+  /*================================Frequently Asked Questions=================================*/
+  .fouth-background {
+    padding: 2rem 0;
+  }
+  .questions-heading {
+    text-align: center;
+    margin: auto;
+  }
+
+  .accordion {
+    margin: auto;
+    width: 100%;
+  }
+  .contentBx {
+    margin: 0.1rem 1.2rem;
+  }
+  .accordion-label {
+    position: relative;
+    padding: 00.6rem;
+    border-radius: 0.6rem;
+    background-color: white;
+  }
+  .accordion-label:hover {
+    background-image: linear-gradient(to right, #fbeeef, #7761aa);
+  }
+  .accordion-label::after {
+    content: "\002B";
+    position: absolute;
+    bottom: 50%;
+    right: 2%;
+    transform: translateY(50%);
+    font-size: 1.5rem;
+    
+  }
+  .contentBx.active .accordion-label::after {
+    content: "\002D";
+    position: absolute;
+    bottom: 50%;
+    right: 2%;
+    transform: translateY(50%);
+    font-size: 1.5rem;
+    
+  }
+  .accordion-content {
+    height: 0;
+    overflow: hidden;
+    transition: 0.2s ease;
+    overflow-y: auto;
+  }
+  .accordion-content {
+    height: 0;
+    overflow: hidden;
+    transition: 0.2s ease;
+    overflow-y: auto;
+  }
+  .contentBx.active .accordion-content {
+    padding: 0.3rem;
+    height: 100%;
+  }
+
+  /*======================================================Our Key Features===========================================*/
+  .features-heading {
+    text-align: center;
+  }
+  .features .card {
+    text-align: center;
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
+  .features .card h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+
+  /*==================================About Futurism===============================================*/
+  #about-futurism {
+    padding: 1rem 0;
+  }
+  #about-futurism .card {
+    box-shadow: none;
+    border: none;
+    transform: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin: 0rem;
+  }
+
+  /*======================================== Footer ============================================*/
+  footer ul li {
+    list-style: none;
+    padding: 00.5rem 0;
+  }
+  footer a {
+    text-decoration: none;
+    color: white;
+  }
+  .social-icons img:hover {
+    transform: scale(0.98);
+  }
+  footer {
+    font-size: 0.85rem;
+    font-weight: bold;
+    padding: 2rem;
+  }
+}
