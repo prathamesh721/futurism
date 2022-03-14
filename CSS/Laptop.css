@@ -145,7 +145,7 @@ section #courseEligibility{
     padding: 2rem;
     border-radius: 1rem;
     margin-top: 7.5rem;
-
+    position: relative;
 }
 .inner-wrapper{
     width: 20%;
@@ -160,15 +160,13 @@ section #courseEligibility{
     font-size: 3rem;
     
 }
-.image-wrapper{
-    position: relative;
-}
+
 .image-wrapper img{
     position: absolute;
-    bottom: -95%;
-    right: -90%;
+    bottom: 0%;
+    right: -15%;
     transition: 0.1s ease;
-    width: 40rem;
+    width: 45rem;
 }
 /*====================================Statistics======================*/
 
